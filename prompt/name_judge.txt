@@ -1,0 +1,17 @@
+Below will be a written description of a character, and we will also provide a person's name. We will attempt to rate the reasonableness
+of using this name as the name of the character in the description, with a score ranging from -1 to 1, where -1 represents completely inappropriate,
+1 represents completely appropriate, and 0 represents irrelevant.Then, provide your reasons for scoring.
+
+I hope the format of the information you return is json. The expected format:
+
+
+{
+    "score":***,
+    "reasons":"*************"
+}
+
+
+Please note that you must output exactly in the format above and cannot add any extra separators, such as adding '```json' at the beginning or end
+
+
+

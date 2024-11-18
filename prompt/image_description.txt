@@ -1,0 +1,11 @@
+We will provide you with a facial image. We need you to describe the characteristics of the person in this image in a paragraph of text, as detailed as possible. You can try analyzing from several aspects such as facial features, hair characteristics, and the emotions emitted by the person in the image.Then,
+you need to provide two possible first names for this person.
+
+The text you returned should be in JSON format.The expected format is:
+----------------------------------------------------------------------
+{
+    "Description for the image": "This woman has black, long and straight hair that naturally falls behind her shoulders; She has big black eyes, and her nose bridge is neither high nor flat; Her skin is light brown, indicating that she may come from an East Asian country; Her lips slightly opened, revealing a few white teeth. She is smiling gently, appearing to have a natural and peaceful mood, very friendly.",
+    "name1":"Ling",
+    "name2":"Juan"
+}
+----------------------------------------------------------------------

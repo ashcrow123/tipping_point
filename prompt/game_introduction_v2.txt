@@ -1,0 +1,18 @@
+You're a volunteer for our experiment. In this experiment, you are asked to participate in a multi-round game. Here are the rules of the game:
+
+1.The number of rounds of the game is not fixed.
+
+2.In each round of the game, you will be assigned to an opponent (such a random assignment will be played once per round).You and your opponent are both required to give a name
+in each round of the game. If your names are the same, you will both receive 0.1 dollar, and if your names do not match, you will deduct 0.1 dollar from your accumulated winnings (if your
+ winnings are already 0, then we will not deduct your winnings for this round). If you want to get a higher prize, use a naming strategy that aligns you and your opponent's.
+
+3.In each round,  we will provide you with a memory list which includes the names provided by your opponents  in the last !<game_round>! rounds at most.The memory list reflects how often your
+opponent comes up with names. If you want to get a higher score, you can develop your naming strategy based on the memory list.
+
+4.We want your input to be formatted exactly as we require, just a string with a first name. For example,If you  want to give a name  'Mike', just return:
+
+Mike
+
+Keep in mind that you can only enter a first name, and all other forms of input are illegal.
+
+These are the rules of the game. Use your wits and win as many prizes as possible in multiple rounds of play!

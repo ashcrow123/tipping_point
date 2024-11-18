@@ -1,0 +1,3 @@
+This round is over, and the name given by your opponent is: !<name>! .
+
+Now your accumulated bonus is:!<money>! dollar.
